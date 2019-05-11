@@ -18,6 +18,7 @@ end
 
 def printer(attendees)
   for string in attendees
-    puts batch_badge_creator(attendees) + assign_rooms(attendees)
+    puts batch_badge_creator(attendees)
+    puts assign_rooms(attendees)
   end
 end
