@@ -8,15 +8,15 @@ def batch_badge_creator(attendees)
   end
 end
 
-def assign_rooms(speakers)
-  speakers.collect do |name|
-    room_num = speakers.index(name)
+def assign_rooms(attendees)
+  attendees.collect do |name|
+    room_num = attendees.index(name)
     room_num += 1
     "Hello, #{name}! You'll be assigned to room #{room_num}!"
   end
 end
 
-def printer
+def printer(attendees)
   puts batch_badge_creator(attendees)
-  puts assign_rooms(speakers)
+  puts assign_rooms(attendees)
 end
