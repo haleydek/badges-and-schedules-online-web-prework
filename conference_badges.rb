@@ -8,5 +8,6 @@ def batch_badge_creator(attendees)
   end
 end
 
-def assign_rooms(name)
+def assign_rooms(speakers)
+  "Hello, #{speakers}! "
   
