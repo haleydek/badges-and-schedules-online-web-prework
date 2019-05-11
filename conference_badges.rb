@@ -13,7 +13,7 @@ def assign_rooms(attendees)
     room_assignments = []
     room_num = idx
     room_num += 1
-    room_assignments << "Hello, #{name}! You'll be assigned to room #{room_num}!"
+    "Hello, #{name}! You'll be assigned to room #{room_num}!"
   end
 end
 
