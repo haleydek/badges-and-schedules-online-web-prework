@@ -18,6 +18,6 @@ end
 
 def printer(attendees)
   for string in attendees
-    batch_badge_creator(attendees).chomp
+    batch_badge_creator(attendees)
   end
 end
