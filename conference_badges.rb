@@ -19,7 +19,7 @@ end
 def printer(attendees)
   badges = batch_badge_creator(attendees)
   room_assignment = assign_rooms(attendees)
-  badges.each_line do |line|
+  badges.each do |line|
     puts line
   end
 end
