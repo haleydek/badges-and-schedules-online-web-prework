@@ -18,6 +18,6 @@ end
 
 def printer(attendees)
   for string in attendees
-    puts batch_badge_creator(attendees).inspect
+    puts batch_badge_creator(attendees)
   end
 end
